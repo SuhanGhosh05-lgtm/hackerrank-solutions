@@ -9,12 +9,7 @@ int main() {
     float f;
     int i;
     long long l;
-    scanf("%d %lld %c %f %lf", &i, &l, &ch, &f, &d);
-
-    printf("%d\n", i);
-    printf("%lld\n", l);
-    printf("%c\n", ch);
-    printf("%.3f\n", f);
-    printf("%.9lf\n", d);
+    cin >> i >> l >> ch >> f >> d;
+    cout <<i <<"\n" << l << "\n" << ch <<"\n" <<f <<"\n" <<d;
     return 0;
 }
