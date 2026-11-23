@@ -60,7 +60,7 @@ Print each element on a new line in the same order it was received as input. Not
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T05:28:50.972Z  
+**Submitted:** 2026-11-23T05:30:35.318Z  
 
 ```cpp
 #include <iostream>
@@ -74,8 +74,13 @@ int main() {
     float f;
     int i;
     long long l;
-    cin >> i >> l >> ch >> f >> d;
-    cout <<i <<"\n" << l << "\n" << ch <<"\n" <<f <<"\n" <<d;
+    scanf("%d %lld %c %f %lf", &i, &l, &ch, &f, &d);
+
+    printf("%d\n", i);
+    printf("%lld\n", l);
+    printf("%c\n", ch);
+    printf("%.3f\n", f);
+    printf("%.9lf\n", d);
     return 0;
 }
 
