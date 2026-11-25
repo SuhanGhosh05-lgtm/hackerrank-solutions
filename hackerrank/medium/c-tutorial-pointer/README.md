@@ -53,7 +53,7 @@ Input will contain two integers, $a$ and $b$, separated by a newline.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T13:59:41.661Z  
+**Submitted:** 2026-11-25T14:22:24.504Z  
 
 ```cpp
 #include <stdio.h>
