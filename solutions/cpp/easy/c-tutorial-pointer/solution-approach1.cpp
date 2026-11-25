@@ -1,0 +1,34 @@
+// ──────────────────────────────────────────────────
+// Link        https://www.hackerrank.com/challenges/c-tutorial-pointer/problem?isFullScreen=true
+// Problem     Pointer
+// Difficulty  Easy
+// Subdomain   Introduction
+// Platform    HackerRank
+// Language    cpp
+// Status      Accepted
+// Submitted   2026-11-25, 07:29 p.m.
+// ──────────────────────────────────────────────────
+
+#include <stdio.h>
+
+void update(int *a,int *b) {
+    // Complete this function 
+       int sum=*a + *b;
+       int diff=*a - *b;
+       if (diff < 0) {
+        diff = -diff;
+    }
+    *a = sum;
+    *b = diff;
+}
+
+int main() {
+    int a, b;
+    int *pa = &a, *pb = &b;
+    
+    scanf("%d %d", &a, &b);
+    update(pa, pb);
+    printf("%d\n%d", a, b);
+
+    return 0;
+}
