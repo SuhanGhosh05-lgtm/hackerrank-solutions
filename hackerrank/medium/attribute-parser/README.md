@@ -74,7 +74,7 @@ Print the value of the attribute for each query. Print "*Not Found!*" without qu
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-27T14:12:38.208Z  
+**Submitted:** 2026-11-27T14:13:11.883Z  
 
 ```cpp
 #include <cmath>
